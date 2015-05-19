@@ -32,7 +32,7 @@ pca_analysis(dataset);
 
 % Initial estimation of the lineage tree.
 
-rng(7)
+% rng(uint64(7))
 initialize_tree(dataset, cluster_mode);
 
 % Refinement of tree structure by maximizing penalized likelihood function.
